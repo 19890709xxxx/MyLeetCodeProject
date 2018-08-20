@@ -24,7 +24,7 @@ package com.my.app.myleetcodeproject;
  * psvm  sout
  */
 
-public class ReverseInteger_7 {
+public class _7_ReverseInteger {
 
     public static void main(String[] args) {
         reverse(1321543354);

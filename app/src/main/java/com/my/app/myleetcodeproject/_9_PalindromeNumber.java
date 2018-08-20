@@ -23,15 +23,31 @@ package com.my.app.myleetcodeproject;
  * 你能不将整数转为字符串来解决这个问题吗？
  */
 
-public class PalindromeNumber_9 {
+public class _9_PalindromeNumber {
 
     public static void main(String[] args) {
-
+        palindromeNumber(321321);
     }
 
+    // 将数字反转对比就可以知道
+    private static boolean palindromeNumber(int num){
+        if(num < 0 || (num % 10 == 0 && num != 0)) {
+            return false;
+        }
 
-    private void palindromeNumber(){
+        String numString = num+"";
+        String reverseNum = "";
 
+        for (int i = numString.length()-1;i>=0;i--)//倒转字符串
+            reverseNum  += numString.charAt(i);
+
+        if (numString.equals(reverseNum)) {
+            System.out.println("palindrome Number");
+            return true;
+        } else {
+            System.out.println("not palindrome Number");
+            return false;
+        }
     }
 
 }

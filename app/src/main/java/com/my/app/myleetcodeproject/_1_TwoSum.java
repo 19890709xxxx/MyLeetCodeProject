@@ -13,7 +13,7 @@ import java.util.HashMap;
  * 所以返回 [0, 1]
  */
 
-public class TwoSum_1 {
+public class _1_TwoSum {
 
     public static void main(String[] args) {
         int[] array = {4, 7, 65, 15};
