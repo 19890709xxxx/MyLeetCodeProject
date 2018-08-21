@@ -2,6 +2,7 @@ package com.my.app.myleetcodeproject;
 
 /**
  * @description: 回文数
+ * 难度：简单
  * 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
  * <p>
  * 示例 1:
