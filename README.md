@@ -12,10 +12,10 @@ It's never too late to learn .
 
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_1_TwoSum.java" >1. Two Sum 两数之和 (简单)</a>
 
-<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_7_ReverseInteger.java" >1. Reverse Integer 反转整数 (简单)</a>
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_7_ReverseInteger.java" >7. Reverse Integer 反转整数 (简单)</a>
 
-<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_9_PalindromeNumber.java" >1. Palindrome Number 回文数 (简单)</a>
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_9_PalindromeNumber.java" >9. Palindrome Number 回文数 (简单)</a>
 
-<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_13_RomaToInteger.java" >1. Roma To Integer 罗马数字转整数 (简单)</a>
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_13_RomaToInteger.java" >13. Roma To Integer 罗马数字转整数 (简单)</a>
 
-<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_14_LongestCommonPrefix.java" >1. Longest Common Prefix 最长公共前缀 (简单)</a>
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_14_LongestCommonPrefix.java" >14. Longest Common Prefix 最长公共前缀 (简单)</a>
