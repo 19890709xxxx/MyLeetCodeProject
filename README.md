@@ -10,4 +10,4 @@ It's never too late to learn .
 .                                    —————————来自一个不愿停止学习的5年安卓开发工程师
 
 
-<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_1_TwoSum.java" target="_blank">1. Two Sum 两数之和 (简单)</a>
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_1_TwoSum.java" >1. Two Sum 两数之和 (简单)</a>
