@@ -56,7 +56,7 @@ public class _27_RemoveElement {
         if (nums.length == 0)
             return 0;
 
-        int flag = 0;
+        int flag = 0;//这个下标变量的作用，是在下面的逻辑中遇到跟val不相等的数，就一个一个由下标0开始替换原数组的数值
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != val) {//只要遍历到到数字不等于val，就往前面插,这样会自动把与val相等的数覆盖掉
