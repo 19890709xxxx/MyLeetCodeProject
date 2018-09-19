@@ -66,7 +66,8 @@ public class _21_MergeTwoSortedLists {
         *对于对象，java中没有C语言的指针概念，对象传递默认就是引用
         *
         *eg: 基础类型： int a= 9； int b = a； b =5； b赋值5后，a仍然为9，不会受到b值变化的影响
-        *    对象类型： ListNode a = new ListNode(4);ListNode b  = a; b.val = 1 ,此时a.val 也会变成 1
+        *    对象类型： ListNode a = new ListNode(4);ListNode b  = a; b.val = 1 ,此时a.val 也会变成 1，
+        *              如果ListNode c = new ListNode(40); b  = c，这时b是指向另外一个对象c，所以a对象不会受影响
         *
         **/
 
