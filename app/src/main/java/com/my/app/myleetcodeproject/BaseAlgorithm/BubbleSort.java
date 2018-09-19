@@ -1,4 +1,4 @@
-package com.my.app.myleetcodeproject.BaseSortAlgorithm;
+package com.my.app.myleetcodeproject.BaseAlgorithm;
 
 /**
  * @description: 冒泡排序
