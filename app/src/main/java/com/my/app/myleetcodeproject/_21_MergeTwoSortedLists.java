@@ -2,6 +2,7 @@ package com.my.app.myleetcodeproject;
 
 /**
  * @description: 合并两个有序链表
+ * 难度：简单
  * @author: ouyangxin
  * @date: 2018-09-10 16:41
  * @version: 1.0

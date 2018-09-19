@@ -4,6 +4,7 @@ import java.util.Stack;
 
 /**
  * @description: 有效的括号
+ * 难度：简单
  * @author: ouyangxin
  * @date: 2018-08-21 18:25
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
