@@ -28,4 +28,6 @@ It's never too late to learn .
 
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_27_RemoveElement.java" >27. Remove Element 移除元素 (简单)</a>
 
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_28_ImplementstrStr.java" >28. Implement strStr() 实现strStr() (简单)</a>
+
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_344_ReverseString.java" >334. Reverse String 反转字符串 (简单)</a>
