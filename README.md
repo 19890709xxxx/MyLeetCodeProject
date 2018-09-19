@@ -23,3 +23,9 @@ It's never too late to learn .
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_20_ValidParentheses.java" >20. Valid Parentheses 有效的括号 (简单)</a>
 
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_21_MergeTwoSortedLists.java" >21. Merge Two Sorted Lists 合并两个有序链表 (简单)</a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_26_RemoveDuplicatesfromSortedArray.java" >26. Remove Duplicates from Sorted Array 删除排序数组中的重复项 (简单)</a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_27_RemoveElement.java" >27. Remove Element 移除元素 (简单)</a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_344_ReverseString.java" >334. Reverse String 反转字符串 (简单)</a>
