@@ -21,7 +21,7 @@ package com.my.app.myleetcodeproject;
 public class _344_ReverseString {
 
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(reverseString("123456789"));
     }
 
     public static String reverseString(String s) {
