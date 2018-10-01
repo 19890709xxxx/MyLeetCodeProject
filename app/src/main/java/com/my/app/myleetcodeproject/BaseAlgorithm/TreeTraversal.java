@@ -3,7 +3,6 @@ package com.my.app.myleetcodeproject.BaseAlgorithm;
 import com.my.app.myleetcodeproject.Model.TreeNode;
 
 import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -67,11 +66,11 @@ public class TreeTraversal {
             return;
         }
 
-        preOrder(tree.left);//一直遍历寻找左子树，一直到左子树为空return回来，这时候拿到第一个节点D
+        inOrder(tree.left);//一直遍历寻找左子树，一直到左子树为空return回来，这时候拿到第一个节点D
 
         System.out.println(tree.name);
 
-        preOrder(tree.right);
+        inOrder(tree.right);
     }
 
     //后序遍历
@@ -81,8 +80,8 @@ public class TreeTraversal {
             return;
         }
 
-        preOrder(tree.left);
-        preOrder(tree.right);
+        postOrder(tree.left);
+        postOrder(tree.right);
 
         System.out.println(tree.name);
     }
