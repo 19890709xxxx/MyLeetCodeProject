@@ -1,5 +1,7 @@
 package com.my.app.myleetcodeproject;
 
+import com.my.app.myleetcodeproject.Model.ListNode;
+
 /**
  * @description: 合并两个有序链表
  * 难度：简单
@@ -127,12 +129,5 @@ public class _21_MergeTwoSortedLists {
         return temp;
     }
 
-    static class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }

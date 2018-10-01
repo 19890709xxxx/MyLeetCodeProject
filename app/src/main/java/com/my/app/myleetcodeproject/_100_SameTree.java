@@ -1,5 +1,7 @@
 package com.my.app.myleetcodeproject;
 
+import com.my.app.myleetcodeproject.Model.TreeNode;
+
 /**
  * @description: 100. Same Tree 相同的树
  * 难度：简单
@@ -63,7 +65,7 @@ public class _100_SameTree {
     }
 
     /*
-    * leetcode 最快的算法
+    * leetcode 最快的算法，逻辑是一样的
     * */
     public boolean isSameTree2(TreeNode p, TreeNode q) {
         if (p == null && q == null)
@@ -78,10 +80,5 @@ public class _100_SameTree {
         }
     }
 
-    private static class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }
+
 }
