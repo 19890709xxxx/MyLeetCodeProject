@@ -3,7 +3,7 @@ package com.my.app.myleetcodeproject;
 import com.my.app.myleetcodeproject.Model.TreeNode;
 
 /**
- * @description: 104. Maximum Depth of Binary Tree
+ * @description: 104. Maximum Depth of Binary Tree 二叉树的最大深度
  * @author: ouyangxin
  * @date: 2018-10-02 19:00
  * @version: 1.0
@@ -42,7 +42,9 @@ public class _104_MaximumDepthofBinaryTree {
     /**
      * 当二叉树是null时，最大深度就为0
      * 当二叉树只有根节点时，最大深度为1
-     * 当二叉树有根节点还有其他子节点时候，最大深度为左、右子树深度较大一边的深度加上 1
+     * 当二叉树有根节点还有其他子节点时候，最大深度为左、右子树深度较大一边的深度加上 1（加上节点）
+     *
+     * 这道题 就是考 深度优先遍历
      */
     private static int maxDepth(TreeNode root) {
         if (root == null)
