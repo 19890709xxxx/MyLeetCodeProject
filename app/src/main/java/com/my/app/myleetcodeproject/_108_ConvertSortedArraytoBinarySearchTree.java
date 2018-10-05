@@ -59,7 +59,7 @@ public class _108_ConvertSortedArraytoBinarySearchTree {
 
         int middle = ( start + end ) >>> 1;
 
-        TreeNode treeNode = new TreeNode(middle);//中间的数字就是根节点，然后把数组分成两半
+        TreeNode treeNode = new TreeNode(nums[middle]);//中间的数字就是根节点，然后把数组分成两半
 
         treeNode.left = getTree(nums,start,middle-1);//左边从起始位置开始，到 middle 的前一位 开始遍历
 
