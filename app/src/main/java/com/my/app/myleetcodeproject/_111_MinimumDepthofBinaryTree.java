@@ -27,4 +27,17 @@ public class _111_MinimumDepthofBinaryTree {
         else
             return Math.min(leftH,rightH) + 1;
     }
+
+    public int minDepth2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        if (root.left == null) {
+            return 1 + minDepth2(root.right);
+        } else if (root.right == null) {
+            return 1 + minDepth2(root.left);
+        } else {
+            return 1 + Math.min(minDepth2(root.left), minDepth2(root.right));
+        }
+    }
 }
