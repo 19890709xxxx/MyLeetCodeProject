@@ -22,7 +22,7 @@ public class _111_MinimumDepthofBinaryTree {
         int leftH  = minDepth(root.left);
         int rightH  = minDepth(root.right);
 
-        if(leftH == 0 || rightH == 0)
+        if(leftH == 0 || rightH == 0)//如果有一个节点没有孩子节点，那么就加上同一层的右节点的深度，再加上根节点
             return leftH + rightH + 1;
         else
             return Math.min(leftH,rightH) + 1;
