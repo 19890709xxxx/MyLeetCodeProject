@@ -64,4 +64,10 @@ It's never too late to learn .
 
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_111_MinimumDepthofBinaryTree.java" >111. Minimum Depth of Binary Tree 二叉树的最小深度 </a>
 
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_112_PathSum.java" >112. Path Sum 路径总和 </a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_118_Pascal_Triangle.java" >118. Pascal's Triangle 杨辉三角 </a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_119_PascalTriangle2.java" >119. Pascal's Triangle II 杨辉三角 II </a>
+
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_344_ReverseString.java" >334. Reverse String 反转字符串 </a>
