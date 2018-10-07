@@ -15,7 +15,7 @@ public class MergeSort {
         if (start >= end)
             return;
 
-        int mid = (start + end) / 2;
+        int mid = (start + end) >>>1;
         // 递归实现归并排序
         sort(array, start, mid);//将左半边排序
         sort(array, mid + 1, end);//将右半边排序
