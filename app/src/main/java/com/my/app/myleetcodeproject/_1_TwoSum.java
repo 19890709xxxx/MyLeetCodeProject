@@ -18,7 +18,7 @@ public class _1_TwoSum {
 
     public static void main(String[] args) {
         int[] array = {4, 7, 65, 15};
-        int[] result = twoSum(array, 8);
+        int[] result = twoSum(array, 19);
 
         String s = "";
 
