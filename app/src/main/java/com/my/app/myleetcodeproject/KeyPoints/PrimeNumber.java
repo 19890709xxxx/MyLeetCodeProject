@@ -1,4 +1,4 @@
-package com.my.app.myleetcodeproject.BrainStorm;
+package com.my.app.myleetcodeproject.KeyPoints;
 
 /**
  * @description: 对类文件的描述

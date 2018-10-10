@@ -74,4 +74,10 @@ It's never too late to learn .
 
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_122_BestTimetoBuyandSellStock2.java" >122. Best Time to Buy and Sell Stock II 买卖股票的最佳时机 II </a>
 
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_125_Valid_Palindrome.java" >125. Valid Palindrome 验证回文串 </a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_136_SingleNumber.java" >136. Single Number 只出现一次的数字 </a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_141_LinkedListCycle.java" >141. Linked List Cycle 环形链表 </a>
+
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_344_ReverseString.java" >334. Reverse String 反转字符串 </a>
