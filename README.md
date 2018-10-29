@@ -80,4 +80,8 @@ It's never too late to learn .
 
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_141_LinkedListCycle.java" >141. Linked List Cycle 环形链表 </a>
 
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_155_MinStack.java" >155. Min Stack 最小栈 </a>
+
+<a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_160_IntersectionofTwoLinkedLists.java" >160. Intersection of Two Linked Lists 相交链表 </a>
+
 <a href="https://github.com/19890709xxxx/MyLeetCodeProject/blob/master/app/src/main/java/com/my/app/myleetcodeproject/_344_ReverseString.java" >334. Reverse String 反转字符串 </a>
