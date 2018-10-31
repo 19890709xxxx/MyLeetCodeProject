@@ -26,7 +26,7 @@ public class BinarySearch {
      * @param toIndex   终止位置
      * @param value     查找目标
      */
-    private static int binarySearch(int[] a, int fromIndex, int toIndex, int value) {
+    public static int binarySearch(int[] a, int fromIndex, int toIndex, int value) {
         if (toIndex > a.length - 1)
             toIndex = a.length - 1;
 
