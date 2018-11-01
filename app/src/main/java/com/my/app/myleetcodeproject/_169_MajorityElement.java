@@ -22,15 +22,28 @@ package com.my.app.myleetcodeproject;
 public class _169_MajorityElement {
 
     public static void main(String[] args) {
-
+        System.out.println(majorityElement(new int[]{2,2,1,1,2,3,2,1,2,2})+"");
     }
 
     public static int majorityElement(int[] nums) {
        int count =0;
-       int number = nums[0];
+       int number = 0;
 
        for (int i =0;i<nums.length;i++){
-           
+           /**
+            * 如果count等于0，那么有两种可能，
+            * 1、刚刚开始循环，i=0的时候，这里相当于初始化number和count
+            * 2、一直遇到不同于number的数字，导致count一路减1，归零，这时候这里就是重置count还有number为当前循环到的数字
+            * */
+            if (count == 0) {
+                number = nums[i];
+                count++;
+            }else if (number == nums[i])//遇到相同的，count 就加1 ， 遇到不同的 count就减1
+                count++;
+            else
+                count--;
        }
+
+       return number;
     }
 }
