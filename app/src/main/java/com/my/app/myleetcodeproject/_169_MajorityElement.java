@@ -31,6 +31,8 @@ public class _169_MajorityElement {
 
        for (int i =0;i<nums.length;i++){
            /**
+            * 摩尔投票法 ？
+            *
             * 如果count等于0，那么有两种可能，
             * 1、刚刚开始循环，i=0的时候，这里相当于初始化number和count
             * 2、一直遇到不同于number的数字，导致count一路减1，归零，这时候这里就是重置count还有number为当前循环到的数字
