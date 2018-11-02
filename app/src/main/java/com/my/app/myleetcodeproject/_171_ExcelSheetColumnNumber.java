@@ -34,7 +34,7 @@ package com.my.app.myleetcodeproject;
 public class _171_ExcelSheetColumnNumber {
 
     public static void main(String[] args) {
-        System.out.println(titleToNumber("ZY")+"");
+        System.out.println(titleToNumber("ZY") + "");
     }
 
     /**
@@ -43,19 +43,15 @@ public class _171_ExcelSheetColumnNumber {
     public static int titleToNumber(String s) {
         char[] chars = s.toCharArray();
 
-        int total =0;
+        int total = 0;
 
-        for (int i =0; i< s.length();i++){
-            if (i < s.length()-1) {
-                /**
-                 * 1 、chars[i] - 'A' + 1 得出两个char值之间的差值
-                 * 2 、Math.pow(26,s.length()-i-1) 求26在对应位置求幂，如100，百位是10的2次方
-                 * 3 、累加起来，就可以得到十进制的值
-                 * */
-                total += (chars[i] - 'A' + 1) *  Math.pow(26,s.length()-i-1);
-            }else {
-                total += chars[i] - 'A' + 1;
-            }
+        for (int i = 0; i < s.length(); i++) {
+            /**
+             * 1 、chars[i] - 'A' + 1 得出两个char值之间的差值
+             * 2 、Math.pow(26,s.length()-i-1) 求26在对应位置求幂，如100，百位是10的2次方
+             * 3 、累加起来，就可以得到十进制的值
+             * */
+            total += (chars[i] - 'A' + 1) * Math.pow(26, s.length() - i - 1);
         }
 
         return total;
