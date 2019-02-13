@@ -26,6 +26,17 @@ public class Collections {
      *
      **/
 
+    /**
+     *
+     * _203_Remove_Linked_List_Elements
+     *
+     * 关于对象的引用
+     * 1 如果这里赋值 cur.val = 9; 那么listNode.val 也会变成9，因为cur指向了listNode 对象，cur的值变化会导致listNode的值也出现变化
+     * 2 那么问题来了，为什么cur在下面不断向后遍历，却不会影响listNode呢？
+     * 因为未开始遍历的时候，cur指向的是listNode，开始遍历后，cur 指向的是cur.next 或 cur.next.next 这两个对象，此时cur与listNode已经
+     * 没有关联，所以这里 ListNode cur = listNode 实际上是复制了一份listNode，然后进行了遍历
+     *
+     */
 
     /**
      *_67_AddBinary
@@ -138,4 +149,6 @@ public class Collections {
      *
      *
      * */
+
+
 }
