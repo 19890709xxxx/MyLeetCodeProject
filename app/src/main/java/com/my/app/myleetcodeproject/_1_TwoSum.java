@@ -39,14 +39,10 @@ public class _1_TwoSum {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
-
 //            hashMap.put(nums[i], i);  // 不把 hashMap 的赋值放在这里是因为，如果放在这里，下面的if判断语句要增加 hashMap.get(result) != i ,
 //                                         因为可能出现 result =   nums[i] 的情况，这样 就会返回 同一个index ，eg ： target =8 ，num[i] =4, 返回结果是【i,i】
 
             int result = target - nums[i];
-
-            System.out.println("第" + i + "次循环 ： " + " result ： " + result + " nums[i] ： " + nums[i]);
-
             if (hashMap.containsKey(result))
                 return new int[]{hashMap.get(result), i};
 

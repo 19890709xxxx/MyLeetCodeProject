@@ -29,7 +29,7 @@ public class _203_Remove_Linked_List_Elements {
         listNode6.next = listNode7;
 
         ListNode head = new ListNode(-1);
-        head.next = removeElements(listNode1, 6);
+        head.next = removeElements2(listNode1, 6);
         while (head.next != null) {
             System.out.print(head.next.val + "-> ");
             head.next = head.next.next;
@@ -61,6 +61,24 @@ public class _203_Remove_Linked_List_Elements {
             }
         }
         return listNode.next;
+    }
+
+    private static ListNode removeElements2(ListNode head, int val) {
+
+        ListNode pre = head;
+        ListNode cur = pre.next;
+
+        while (cur != null){
+
+            if (cur.val == val){
+                pre.next = cur.next;
+            }else {
+                pre = pre.next;
+            }
+            cur =cur.next;
+        }
+
+        return head;
     }
 
 }

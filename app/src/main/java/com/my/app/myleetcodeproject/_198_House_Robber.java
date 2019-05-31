@@ -35,6 +35,8 @@ public class _198_House_Robber {
     private static int rob(int[] nums) {
         int[] memos = new int[nums.length];
         Arrays.fill(memos,-1);//初始化数组
+
+        return 0;
     }
 
     private static int tryRob(int[] memos , int[] source , int index){
@@ -45,5 +47,6 @@ public class _198_House_Robber {
         if (memos[index]!=-1)
             return memos[index];
 
+        return 0;
     }
 }

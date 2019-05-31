@@ -28,20 +28,23 @@ public class SelectionSort {
             return new int[0];
 
         int length = nums.length;
-        int minIndex =0;//用于标记扫描到的最小数字的数组下标
-        int temp;
+        int minIndex;//用于标记扫描到的最小数字的数组下标
 
-        for (int i =0; i<length;i++){
+        for (int i =0; i<length;i++){ // 只需要循环到倒数第二位，因为最后以为不需要再比较
             minIndex = i;//从下标0开始
             for (int j =i+1 ; j < length;j++){//从第一位开始扫描对比
                 if (nums[minIndex]>nums[j])//如果扫描到的数字小于现在标记的数字
-                    minIndex = j;//就把扫描到的数字下标记录下来，目的就是位了找出i 位置的最小数字下标
+                    minIndex = j;//就把扫描到的数字下标记录下来，目的就是为了找出i 位置的最小数字下标
             }
-            temp = nums[i];//找到了i位置下最小的数字，直接替换i位置的数字
-            nums[i] = nums[minIndex];
-            nums[minIndex] = temp;
+
+            if (minIndex != i) {
+                int temp = nums[i];//找到了i位置下最小的数字，直接替换i位置的数字
+                nums[i] = nums[minIndex];
+                nums[minIndex] = temp;
+            }
         }
 
         return nums;
     }
+
 }

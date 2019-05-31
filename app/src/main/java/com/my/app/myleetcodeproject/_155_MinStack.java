@@ -3,7 +3,7 @@ package com.my.app.myleetcodeproject;
 import java.util.Stack;
 
 /**
- * @description: 155. Min Stack 最小栈
+ * @description: 155. Min MyStack 最小栈
  * @author: ouyangxin
  * @date: 2018-10-25 17:49
  * @version: 1.0

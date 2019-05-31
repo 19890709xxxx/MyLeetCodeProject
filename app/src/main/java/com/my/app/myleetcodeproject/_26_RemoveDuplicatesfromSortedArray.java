@@ -55,16 +55,16 @@ public class _26_RemoveDuplicatesfromSortedArray {
         if (nums.length == 0)
             return 0;
 
-        int number = 0;//标记计数，遇到跟数值number下标的数不相同的数，则加1
+        int index = 0;//标记计数，遇到跟数值number下标的数不相同的数，则加1
         for (int i=0; i < nums.length ; i++) {
-            if ( nums[i] != nums[number] ) {//循环里遇到不相同的数，number计数加1，把遇到的数赋值给number下标位置
-                number++;//为什么要先加1 ？ 因为如果不先加1，一：首位的数会被替换掉，造成数据丢失，二：赋值会有偏差
-                nums[number] = nums[i];
+            if ( nums[i] != nums[index] ) {//循环里遇到不相同的数，number计数加1，把遇到的数赋值给number下标位置
+                index++;//为什么要先加1 ？ 因为如果不先加1，一：首位的数会被替换掉，造成数据丢失，二：赋值会有偏差
+                nums[index] = nums[i];
             }
 
         }
-        number+=1; //number是下标，所以返回长度的话要+1
-        return number;
+        index+=1; //number是下标，所以返回长度的话要+1
+        return index;
 
     }
 
@@ -84,4 +84,5 @@ public class _26_RemoveDuplicatesfromSortedArray {
         }
         return number + 1;
     }
+
 }
